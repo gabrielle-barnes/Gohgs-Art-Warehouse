@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  font-family: "Old Standard TT", serif;
+  font-size: 15px;
+  padding: 10px;
+  margin: 20px;
+  color: rgb(250, 177, 189);
+  background-color: rgba(144, 203, 238, 0.274);
+  box-shadow: 2px 2px grey;
+  border: none;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  display: grid;
+  grid-template-rows: 80px auto auto 80px;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  font-family: "Old Standard TT", serif;
+  font-size: 15px;
+  font-style: normal;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  color: rgb(12, 11, 11);
+  background-color: rgba(121, 189, 235, 0.096);
+  box-shadow: 2px 2px grey;
+}
+
+info {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: rgb(250, 177, 189);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(8, 6, 6);
+  background-color: rgb(235, 235, 229);
+}
